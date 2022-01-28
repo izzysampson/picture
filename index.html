@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Picture</title>
+       <!--DESCRIPTION-->
+       <meta name="description" content="A virtual, scenic experience of why mountain landscapes are the best.">
+       <!--NORMALIZE CSS-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+       <!--RID OF WHITE BORDER-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+              integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <style>
+              img {
+                     width: 100%;
+              }
+
+              header svg {
+                     stroke: #916247;
+                     width: 40px;
+                     height: 40px;
+              }
+       </style>
+</head>
+
+<body>
+       <header>
+              <nav>
+                     <ul>
+                            <li><a>Home</a></li>
+                            <li><a href="about/">About</a></li>
+                            <li><a href="form/">Form</a></li>
+                     </ul>
+              </nav>
+       </header>
+       <!--INSERT SVG-->
+       <svg viewBox="0 0 120 120" width="200" height="200">
+              <circle cx="60" cy="60" r="45" stroke="green" stroke-width="3" fill="transparent" />
+              <line x1="45" y1="35" x2="45" y2="85" stroke="green" stroke-width="3" stroke-linecap="round" />
+              <line x1="80" y1="35" x2="65" y2="85" stroke="green" stroke-width="3" stroke-linecap="round" />
+              <line x1="65" y1="35" x2="80" y2="35" stroke="green" stroke-width="3" stroke-linecap="round" />
+              <line x1="65" y1="85" x2="80" y2="85" stroke="green" stroke-width="3" stroke-linecap="round" />
+       </svg>
+       <p>Above is a nice SVG I made of my initials!</p>
+       <!--HERO IMAGE-->
+       <picture>
+              <source srcset="images/mountain1600w.jpg" media="(min-width: 901px)">
+              <source srcset="images/mountain900w.jpg" media="(min-width: 501px)">
+              <source srcset="images/mountain500w.jpg" media="(max-width: 500px)">
+
+              <img src="mountain900w.jpg" alt="scenic mountain landscape">
+       </picture>
+       <!--TITLE-->
+       <h1>The Best Scenic View: Mountainscapes</h1>
+       <p>Maybe it's because I grew up in Utah, but I think that mountains are one of God's best creations. I mean, look
+              how incredible!</p>
+       <!--INFO SECTION-->
+       <article>
+              <h2>Why Mountains?</h2>
+              <p>Your average person may argue that beaches, oceans, deserts, or forests provide the best scenic
+                     lanscapes. Well, they're wrong. I think that mountains are the only things that capture the
+                     grandure of the world. Oceans just don't do it justice.</p>
+       </article>
+       <!--IMAGE-->
+       <figure>
+              <img src="images/sunlightMountain.jpg" alt="sunlit mountain landscape">
+              <figcaption>Isn't it gorgeous?</figcaption>
+       </figure>
+       <!--ANOTHER INFO SECTION-->
+       <article>
+              <h2>The Best Part</h2>
+              <p>The most incredible part about mountainscapes are when the sun is setting and casts it's light on the
+                     mountain ranges. Honestly, I would say my favorite time of day is around 5:20 when the light hits
+                     the mountain tops.</p>
+       </article>
+       <!--EXTERNAL LINK-->
+       <p>Still don't believe that mountainscapes are the best? Spend 2 seconds on <a
+                     href="https://www.mountainphotography.com/gallery/">this mountain photography website</a>
+              and you will then be convinced and agree with me when I say <em>they really are the best.</em></p>
+
+</body>
+
+</html>
